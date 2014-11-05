@@ -90,4 +90,5 @@ boot.fn = function(data,index)
 set.seed(1)
 boot(Auto,boot.fn,1000)
 
+# Linear regression
 summary(lm(mpg~horsepower+I(horsepower^2),data=Auto))$coef
