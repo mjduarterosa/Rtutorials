@@ -1,4 +1,5 @@
 # Load Auto dataset
+#Babofias
 Auto = read.table("Auto.data",header = T, na.strings = "?")
 
 # Omit NA from data
